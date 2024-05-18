@@ -1,0 +1,40 @@
+.container {
+  background-color: cadetblue;
+  width: 300px;
+  height: 550px;
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container:hover {
+  scale: 1.02;
+  transition: 0.3s;
+}
+
+.container img {
+  width: 100%;
+}
+
+.noImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.removeArticleBtn {
+  border: none;
+  padding: 0.2rem;
+  background-color: red;
+  color: white;
+}
+
+.removeArticleBtn:hover {
+  scale: 1.02;
+  cursor: pointer;
+  background-color: rgb(182, 0, 0);
+}

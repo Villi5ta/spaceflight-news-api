@@ -1,0 +1,45 @@
+.landingPageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.landingImage {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.landingText {
+  position: absolute;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1000px;
+  color: white;
+}
+
+.landingHeadline {
+  font-size: 50px;
+}
+
+.landingParagraph {
+  font-size: 20px;
+}
+
+.moreNewsLnk {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  border: 2px solid cadetblue;
+  padding: 1rem;
+}
+
+.moreNewsLnk:hover {
+  border: 2px solid black;
+  background-color: cadetblue;
+  scale: 1.07;
+}

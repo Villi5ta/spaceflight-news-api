@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  background-color: cadetblue;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main img {
+  height: 100%;
+  width: auto;
+}
+
+.menuItems {
+  text-decoration: none;
+  color: black;
+}
